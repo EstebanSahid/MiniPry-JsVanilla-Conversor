@@ -1,0 +1,12 @@
+body {
+    background-image: url('../img/convertidor.png');
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+.oculto{
+    display: none;
+}

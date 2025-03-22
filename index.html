@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Monedas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/conversor.js"></script>
+</head>
+<body>
+    <div id="content-usuario">
+        <label for="txtUsuario">Hola! Por favor ingrese sú nombre</label>
+        <input type="text" id="txtUsuario">
+        <button id="AsignarUsu">Registrar</button>
+    </div>
+
+    <div id="content-menu" class="oculto">
+        <label id="name_ususario"></label>
+        <ul>
+            <li id="menu_monedas">Conversor de Monedas</li>
+            <li id="menu_cripto">Conversor de CriptoMonedas</li>
+            <li id="menu_temperatura">Conversor de Temperaruta</li>
+        </ul>
+    </div>
+
+    <div id="contenido">    
+        <div id="content-monedas" class="oculto">
+            <h1>Conversor de Monedas</h1>
+            <label for="dolarInput">Ingresa el valor en dólar:</label>
+            <input type="number" id="dolarInput">
+            <button id="conversorBoton">Convertir</button>
+            <br>
+            
+        </div>
+
+        <div id="content-cripto" class="oculto">
+            <h1>Conversor de CriptoMonedas</h1>
+            <label for="dolarInput">Ingresa el valor en dólar:</label>
+            <input type="number" id="dolarInput1">
+            <button id="conversorBoton1">Convertir</button>
+            <br>
+            <br>
+        </div>
+
+        <div id="content-temperatura" class="oculto">
+            <h1>Conversor de Temperaruta</h1>
+            <label for="temperaturaInput">Ingrese la Temperatura</label>
+            <input type="number" id="temperaturaInput">
+            <select id="unidadSelect">
+                <option value="cel">°C</option>
+                <option value="far">°F</option>
+                <option value="kel">°K</option>
+            </select>
+            <br>
+        </div>
+        <label id="resultadoConversor"></label>
+    </div>
+
+</body>
+</html>
